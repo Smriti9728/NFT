@@ -1,0 +1,820 @@
+@font-face {
+    font-family: "WorkSans";
+    src: url("../font/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../font/SpaceMono-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "WorkSans";
+    color: white !important;
+    text-decoration: none !important;
+}
+.container{
+    max-width: 1177px !important;
+    width: 100% !important;
+    padding: 0px 15px;
+    margin: auto;
+}
+/* nav part */
+#sign_btn{
+    background-color: #A259FF;
+    border-radius: 10px;
+}
+#nav{
+    padding: 20px 38px !important;
+}
+.nav-item{
+    margin-right: 53px;
+}
+#toggler{
+    color: white;
+}
+/* end */
+
+/* banner part */
+.banner-leftpart{
+    width: 80%;
+}
+.banner-leftpart h1{
+    font-size: 67px;
+    font-weight: 600;
+    color: white;
+    font-family: "WorkSans";
+}
+.p1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.btn2{
+    border: none;
+    padding: 22px 50px;
+    border-radius: 10px;
+    background-color: #A259FF;
+    margin-bottom: 40px;
+}
+.s1, #started-btn{
+    text-decoration: none;
+    color: white;
+}
+.p2{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-family: "WorkSans";
+}
+.p3{
+    font-size: 23.99px;
+    font-weight: 400;
+    color: white;
+    font-family: "SpaceMono";
+}
+.p4{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "WorkSans";
+}
+.p5{
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: "WorkSans";
+    margin: 0px;
+}
+#banner-img2{
+    margin-right: 12px;
+    align-items: center;
+}
+.card-body{
+    background-color: #3B3B3B;
+    border-radius: 0px 0px 10px 10px;
+}
+.card{
+    border: none;
+}
+.banner-img1 img{
+    width: 100%;
+}
+/* end */
+
+/* collection part */
+.common-padding{
+    padding: 89px 100px;
+}
+.collection h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "WorkSans";
+}
+.collection p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.collection-img{
+    width: 100%;
+}
+.collection-num{
+    padding: 43px 16px;
+    color: white;
+    border-radius: 10px;
+    background-color: #A259FF;    
+}
+.collectionimg img{
+    width: 100%;
+}
+.small-img img{
+    width: 110px;
+    height: 120px;
+}
+.low-div{
+    margin-top: 14px;
+}
+.low-text p{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "SpaceMono";
+}
+/* end */
+
+/* creators part */
+.creators-img1{
+    background-color: #3B3B3B;
+    border-radius: 10px;
+}
+.creators-text h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "WorkSans";
+}
+.text-Checkout p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.sales-text{
+    padding: 20px 26px;
+}
+.eth{
+    font-size: 16px;
+    font-family: "SpaceMono";
+    margin-bottom: 0px;
+}
+.sales{
+    font-size: 22px;
+    font-family: "WorkSans";
+    font-weight: 600;
+    color: #858584;
+}
+.sales-text h6{
+    padding-top: 0px;
+    font-family: "SpaceMono";
+}
+.sales-text p{
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-family: "WorkSans";
+}
+#mid-row{
+    margin: 30px 0px;
+}
+.col{
+    padding: 0px;
+}
+#mr-Fox{
+    margin-right: 11px;
+    margin-left: 11px;
+}
+#shroomie{
+    margin-right: 11px;
+}
+#robotica{
+    margin-left: 11px; 
+}
+.btn-Rankings{
+   width: 172px;
+   height: 67px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   border: 1px solid #A259FF;
+}
+.creators-text{
+    margin-bottom: 57px;
+}
+/* end */
+
+/* Categories part */
+.categories-img-text{
+    background-color: #3B3B3B;
+    border-radius: 0px 0px 10px 10px;
+    padding: 27px 30px;
+}
+#first-row{
+    margin-bottom: 30px;
+}
+.categories-img img{
+    width: 100%;
+}
+.categories-img-text h5{
+    font-size: 22px;
+}
+.categories-text{
+    margin-bottom: 62px;
+}
+.categories-text h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "WorkSans";
+}
+#icon-rocket{
+    color: #A259FF;
+}
+#view{
+    font-family: "WorkSans";
+    font-size: 16px;
+    font-weight: 600;
+}
+/* end */
+
+/* Discover part */
+.discover-text h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "WorkSans";
+}
+.explore p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.eye{
+    color: #A259FF;
+}
+.seeall{
+    width: 172px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #A259FF;
+}
+.seeall p{
+    margin: 0px;
+}
+.text1 p{
+    color: #858584;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "SpaceMono";
+}
+.text2 p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "SpaceMono";
+}
+.up-text1{
+    margin-top: 25px;
+}
+.discover-text1{
+    background-color: #3B3B3B;
+    border-radius: 0px 0px 10px 10px;
+    padding: 27px 26px;
+}
+.discover-img img{
+    width: 100%;
+}
+.explore-seeall{
+    margin-bottom: 57px;
+}
+/* end */
+
+/* works part */
+.work-heading h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "WorkSans";
+}
+.p16{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.upload{
+    width: 90%;
+}
+/* end */
+
+/* digest part */
+#digest-row{
+    background-color: #3B3B3B;
+    border-radius: 10px;
+    padding: 60px;
+}
+.digest-rightpart h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "WorkSans"; 
+}
+.digest-rightpart p{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.btn5{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #A259FF;
+}
+.subscribe-part{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* end */
+
+/* footer part */
+.p19{
+    color: #858584;
+}
+.footer-icon{
+    color: #858584;
+}
+.footer-part1{
+    width: 55%;
+}
+.explore{
+    color: #858584;
+}
+.footer-part3{
+    width: 100%;
+}
+input{
+    height: 60px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;  
+    width: 60%; 
+    padding-left: 20px;
+}
+.btn6{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #A259FF;
+}
+.last-footer p{
+    color: #858584;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "WorkSans";
+}
+.last-footer{
+    border-top:1px solid #858584;
+    margin: 20px 0px;
+}
+/* end */
+@media screen and (max-width:1199px) {
+    /* banner part */
+    .common-padding{
+        padding: 70px 50px !important;
+    }
+    .banner-leftpart h1{
+        font-size: 50px; 
+    }
+    .p1{
+        font-size: 16px;
+    }
+    .p2{
+        font-size: 25px;  
+    }
+    .p3{
+        font-size: 19px; 
+    }
+    /* end */
+
+    /* collection part */
+    .collection-num{
+        padding: 30px 13px;
+    }
+    .small-img img{
+        width: 80px;
+        height: 95px;
+    }
+    /* end */
+
+    /* creators part */
+    #mr-Fox{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #shroomie{
+        margin-right: 10px;
+    }
+    #robotica{
+        margin-left: 10px; 
+    }
+    /* end */
+
+    /* Categories part */
+    .categories-img-text h5{
+        font-size: 20px;
+    }
+    /* end */
+
+    /* digest part */
+    .digest-img img{
+        width: 100%;
+    }
+    .digest-rightpart p{
+        font-size: 20px;
+    }
+    #email{
+        padding: 10px;
+    }
+    .btn5{
+        width: 109px;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .subscribe-part{
+        width: 100%;
+    }
+    /* end */
+
+    /* footer part */
+    .footer-part1{
+        width: 100%;
+    }
+    .your-mail{
+        padding-left: 10px;
+        width: 150%;
+    }
+    .btn6{
+        width: 500px;
+    }
+    /* end */
+}
+@media screen and (max-width:991px) {
+    /* banner part */
+    .banner-leftpart h1{
+        font-size: 35px !important; 
+    }
+    .p1{
+        font-size: 13px;
+    }
+    .p2{
+        font-size: 20px;  
+    }
+    .p3{
+        font-size: 15px; 
+    }
+    .p4{
+        font-size: 19px;
+        margin-bottom: 10px; 
+    }
+    .p5{
+        font-size: 19px; 
+    }
+    .btn2{
+        padding: 17px 30px;
+    }
+    .common-padding{
+        padding: 30px 50px !important;
+    }
+    .banner-rightpart{
+        margin-top: 30px;
+    }
+    .banner-img1 img{
+        width: 100%;
+    }
+    /* end */
+
+    /* collection part */
+    .collection-num{
+        padding: 20px 13px;
+    }
+    .small-img img{
+        width: 60px;
+        height: 63px;
+    }
+    .low-text p{
+        font-size: 13px;
+    }
+    /* end */
+
+    /* creators part */
+    #juanie, #robotica, #ghiblier{
+        margin: 20px 0px;
+    }    
+    /* end */
+
+    /* Categories part */
+    .categories-img-text h5{
+        font-size: 15px;
+    }
+    .categories-img-text{
+        padding: 20px 20px;
+    }
+    .categories-img{
+        margin-bottom: 20px;
+    }
+    /* end */
+
+    /* Discover part */
+    .text1 p{
+        font-size: 12px;
+    }
+    .text2 p{
+        font-size: 12px;
+    }
+    /* end */
+
+    /* works part */
+    .work-heading h3{
+        font-size: 30px;
+    }
+    .work-heading p{
+        font-size: 17px;
+    }
+    #low-work{
+        margin: 20px 0px;
+    }
+    #first-work{
+        width: 100%;
+    }
+    #mid-work{
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* end */
+
+    /* digest part */
+    .digest-img img{
+        width: 100%;
+    }
+    .digest-rightpart p{
+        font-size: 14px;
+    }
+    .digest-rightpart h3{
+        font-size: 30px;
+    }
+    #digest-row{
+        padding: 40px;
+    }
+    /* end */
+}
+@media screen and (max-width:767px){
+    /* banner part */
+    .banner-img1 img{
+        width: 100%;
+    }
+    /* end */
+
+    /* collection part */
+    .collection-num{
+        padding: 20px 13px;
+    }
+    .small-img img{
+        width: 60px;
+        height: 63px;
+    }
+    .low-text p{
+        font-size: 13px;
+    }
+    .low-div{
+        width: 100%;
+    }
+    /* end */
+
+    /* creators part */
+    #GravityOne{
+        margin-top: 20px;
+    }
+    #mr-Fox{
+        padding: 0px;
+    }
+    #blueWhale{
+        margin-right: 25px;
+    }
+    #shroomie{
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+    #dotgu{
+        margin-top: 20px;
+    }
+    /* end */
+
+    /* Discover part */
+    #mid-Discover{
+        margin: 30px 0px;
+    }
+    .discover-text1 h5{
+        font-size: 30px;
+    }
+    .explore p{
+        font-size: 17px;
+    }
+    .discover-text1{
+        padding: 20px 15px;
+    }
+    /* end */
+
+    /* works part */
+    .work-heading h3{
+        font-size: 30px;
+    }
+    .work-heading p{
+        font-size: 17px;
+    }
+    #low-work{
+        margin: 20px 0px;
+    }
+    /* end */
+
+    /* digest part */
+    .btn5{
+        width: 150px;
+        height: 60px;
+    }
+    /* end */
+
+    /* footer part */
+    .logo img{
+        width: 100%;
+    }
+    .footer-part3{
+        margin-top: 30px;
+    }
+    /* end */
+}
+@media screen and (max-width:575px) {
+    /* nav part */
+    #nav{
+        padding: 20px 20px !important;
+    }
+    .container img{
+        width: 150px;
+    }
+    /* end */
+
+    /* banner part */
+    .common-padding{
+        padding: 20px 30px !important;
+    }
+    .banner-leftpart h1{
+        font-size: 27px !important; 
+    }
+    .p1{
+        font-size: 10px;
+    }
+    .p2{
+        font-size: 15px;
+        margin-bottom: 10px; 
+    }
+    .p3{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .p4{
+        font-size: 19px;
+        margin-bottom: 10px; 
+    }
+    .p5{
+        font-size: 19px; 
+    }
+    .banner-card img{
+        width: 100%;
+    }
+    /* end */
+
+    /* Collection part */
+    .collect-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .collectionimg img{
+        width: 100%;
+    }
+    .small-img img{
+        height: 150px;
+    }
+    .avatar img{
+        width: 30px;
+    }
+    /* end */
+
+    /* creators part */
+    #keepitreal, #blueWhale, #rustyRobot{
+        margin-bottom: 15px;
+    }
+    #blueWhale{
+        margin-right: 0px;
+    }
+    #shroomie{
+        margin-right: 0px;
+    }
+    /* end */
+
+    /* Categories part */
+    .categories-img img{
+        width: 100%;
+    }
+    .categories-text h3{
+        font-size: 25px;
+    }
+    .categories-text{
+        margin-bottom: 40px;
+    }
+    /* end */
+
+    /* Discover part */
+    .discover-img img{
+        width: 100%;
+    }
+    .discover-text h3{
+        font-size: 20px;
+    }
+    .explore p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    #view{
+        font-size: 13px;
+    }
+    .seeall{
+        width: 120px;
+        height: 50px;
+    }
+    .explore-seeall{
+        margin-bottom: 40px;
+    }
+    #avater1{
+        width: 20px;
+    }
+    /* end */
+
+    /* works part */
+    .work-heading h3{
+        font-size: 30px;
+    }
+    .work-heading p{
+        font-size: 17px;
+    }
+    #mid-work{
+        margin: 20px 0px;
+    }
+    /* end */
+
+    /* digest part */
+    .digest-img img{
+        width: 100%;
+    }
+    .digest-rightpart p{
+        font-size: 10px;
+    }
+    .digest-rightpart h3{
+        font-size: 20px;
+    }
+    #digest-row{
+        padding: 10px;
+    }
+    .btn5{
+        width: 40%;
+        height: 60px;
+        border-radius: 10px;
+    }
+    .btn5 a{
+        font-size: 9px;
+    }
+    /* end */
+
+    /* footer part */
+    .footer-list{
+        margin-top: 30px;
+    }
+    .btn6 a{
+        font-size: 10px;
+    }
+    .btn6{
+        width: 300px;
+    }
+    /* end */
+}

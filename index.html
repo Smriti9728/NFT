@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>NFT Marketplace</title>
+</head>
+
+<body>
+  <headre>
+    <!-- nav part -->
+    <nav class="navbar navbar-expand-lg bg-dark" id="nav">
+      <div class="container">
+        <img src="./img/nav/logo.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" id="toggler"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Rankings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-disabled="true" href="#">Connect a wallet</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn text-white" id="sign_btn" type="submit"><i class="fa-regular fa-user"></i> Sign
+              Up</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </headre>
+  <!-- end -->
+
+
+  <!-- banner part -->
+  <section class="banner common-padding bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <div class="banner-leftpart">
+            <h1>Discover digital art & Collect NFTs</h1>
+            <p class="p1">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from
+              more than 20k NFT artists.</p>
+
+            <button class="btn2"><a href="#" id="started-btn">
+                <span class="s1"><i class="fa-solid fa-rocket"></i></span> Get Started
+              </a></button>
+
+            <div class="banner-left-lowerpart d-flex justify-content-between ">
+              <div class="b-div1">
+                <p class="p2">240k+ </p>
+                <p class="p3">Total Sale</p>
+              </div>
+
+              <div class="b-div1">
+                <p class="p2">100k+</p>
+                <p class="p3">Auctions</p>
+              </div>
+
+              <div class="b-div1">
+                <p class="p2">240k+</p>
+                <p class="p3">Artists</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="banner-rightpart">
+            <div class="card banner-card bg-dark">
+              <div class="banner-img1">
+                <img src="./img/banner.png" alt="img">
+              </div>
+              <div class="card-body">
+                <P class="p4">Space Walking</P>
+                <div class="banner-right-lower d-flex align-items-center justify-content">
+                  <div class="b-div2" id="banner-img2">
+                    <img src="./img/bannerAvatar.png" alt="img">
+                  </div>
+                  <div class="b-div2">
+                    <p class="p5">Animakid</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+
+  <main>
+    <!-- Collection part -->
+    <section class="collection common-padding bg-dark">
+      <div class="container">
+        <div class="collection-text">
+          <h3 class="text-white">Trending Collection</h3>
+          <p class="text-white">Checkout our weekly updated trending collection.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="collection-img1 bg-dark">
+              <div class="collectionimg">
+                <img src="./img/Collectionbig1.png" alt="img">
+              </div>
+              <div class="low-div bg-dark d-flex collect-part">
+                <div class="small-img p-2">
+                  <img src="/img/collectionsmall-img1.png" alt="smallimg">
+                </div>
+                <div class="small-img p-2">
+                  <img src="/img/collectionsmall-img2.png" alt="smallimg">
+                </div>
+                <div class="small-img p-2 low-text">
+                  <p class="collection-num text-center">1025+</p>
+                </div>
+              </div>
+              <div class="text">
+                <h5 class="text-white">DSGN Animals</h5>
+                <p class="text-white avatar"><span><img src="./img/Avatar1.png" alt="Avatar1"></span> MrFox</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+
+            <div class="collection-img1 bg-dark">
+              <div class="collectionimg">
+                <img src="./img/Collectionbig2.png" alt="img">
+              </div>
+              <div class="low-div bg-dark d-flex collect-part">
+                <div class="small-img p-2">
+                  <img src="./img/collectionsmall-img3.png" alt="img">
+                </div>
+                <div class="small-img p-2">
+                  <img src="./img/collectionsmall-img4.png" alt="img">
+                </div>
+                <div class="low-text p-2">
+                  <p class="collection-num text-center">1025+</p>
+                </div>
+              </div>
+              <div class="text">
+                <h5 class="text-white">Magic Mushrooms</h5>
+                <p class="text-white avatar"><span><img src="./img/Avatar2.png" alt="Avatar2"></span> Shroomie</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="collection-img1 bg-dark">
+              <div class="collectionimg">
+                <img src="./img/Collectionbig3.png" alt="img">
+              </div>
+              <div class="low-div bg-dark d-flex collect-part">
+                <div class="small-img p-2">
+                  <img src="./img/collectionsmall-img5.png" alt="img">
+                </div>
+                <div class="small-img p-2">
+                  <img src="./img/collectionsmall-img6.png" alt="img">
+                </div>
+                <div class="low-text p-2">
+                  <p class="collection-num text-center">1025+</p>
+                </div>
+              </div>
+              <div class="text">
+                <h5 class="text-white">Disco Machines</h5>
+                <p class="text-white avatar"><span><img src="./img/Avatar3.png" alt="Avatar3"></span> BeKind2Robots</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- creators part -->
+    <section class="creators common-padding bg-dark">
+      <div class="container">
+        <div class="creators-text">
+          <h3 class="text-white">Top creators</h3>
+          <div class="text-btn d-flex justify-content-between align-items-center">
+            <div class="text-Checkout">
+              <p class="text-white">Checkout Top Rated Creators on the NFT Marketplace</p>
+            </div>
+            <div class="btn-Rankings">
+
+              <div class="icon text-white">
+                <i class="fa-solid fa-rocket" id="icon-rocket"></i>
+              </div>
+              <a href="#" id="view">View Rankigns</a>
+              <!-- <p class="text-white"><span><i class="fa-solid fa-rocket"></i></span>  View Rankings</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col" id="keepitreal">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Keepitreal.png" alt="img">
+                  <h5 class="text-white">Keepitreal</h5>
+                  <div class="sales-text d-flex justify-content-between">
+                    <p class="total text-secondary" id="Keepitreal">Total Sales:</p>
+                    <h6 class="text-white eth" id="Keepitreal">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="creators-img1 text-center">
+                  <img src="./img/DigiLab.png" alt="img">
+                  <h5 class="text-white">DigiLab</h5>
+                  <div class="sales-text d-flex justify-content-between align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="GravityOne">
+                <div class="creators-img1 text-center">
+                  <img src="./img/GravityOne.png" alt="img">
+                  <h5 class="text-white">GravityOne</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="juanie">
+                <div class="creators-img1 text-center">
+                  <div class="creators-img1">
+                    <img src="./img/Juanie.png" alt="img">
+                    <h5 class="text-white">Juanie</h5>
+                    <div class="sales-text d-flex justify-content-between  align-items-center">
+                      <p class="total text-secondary">Total Sales:</p>
+                      <h6 class="text-white eth">34.53 ETH</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="mid-row">
+              <div class="col p-0" id="blueWhale">
+                <div class="creators-img1 text-center">
+                  <img src="./img/BlueWhale.png" alt="img">
+                  <h5 class="text-white">BlueWhale</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="mr-Fox">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Mr Fox.png" alt="img">
+                  <h5 class="text-white">Mr Fox</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col p-0" id="shroomie">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Shroomie.png" alt="img">
+                  <h5 class="text-white">Shroomie</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col p-0" id="robotica">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Robotica.png" alt="img">
+                  <h5 class="text-white">Robotica</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col" id="rustyRobot">
+                <div class="creators-img1 text-center">
+                  <img src="./img/RustyRobot.png" alt="img">
+                  <h5 class="text-white">RustyRobot</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Animakid.png" alt="img">
+                  <h5 class="text-white">Animakid</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="dotgu">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Dotgu (1).png" alt="img">
+                  <h5 class="text-white">Dotgu</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="ghiblier">
+                <div class="creators-img1 text-center">
+                  <img src="./img/Ghiblier.png" alt="img">
+                  <h5 class="text-white">Ghiblier</h5>
+                  <div class="sales-text d-flex justify-content-between  align-items-center">
+                    <p class="total text-secondary">Total Sales:</p>
+                    <h6 class="text-white eth">34.53 ETH</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end -->
+
+    <!-- Categories part -->
+    <section class="categories common-padding bg-dark">
+      <div class="container">
+        <div class="categories-text">
+          <h3 class="text-white">Browse Categories</h3>
+        </div>
+        <div class="row" id="first-row">
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/art.png" alt="art">
+            <div class="categories-img-text">
+              <h5 class="text-white">Art</h5>
+            </div>
+          </div>
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/Collectibles.png" alt="Collectibles">
+            <div class="categories-img-text">
+              <h5 class="text-white">Collectibles</h5>
+            </div>
+          </div>
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/Music.png" alt="Music">
+            <div class="categories-img-text">
+              <h5 class="text-white">Music</h5>
+            </div>
+          </div>
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/Music.png" alt="Music">
+            <div class="categories-img-text">
+              <h5 class="text-white">Photography</h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/video.png" alt="Video">
+            <div class="categories-img-text">
+              <h5 class="text-white">Video</h5>
+            </div>
+          </div>
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/Utility.png" alt="Utility">
+            <div class="categories-img-text">
+              <h5 class="text-white">Utility</h5>
+            </div>
+          </div>
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/Sport.png" alt="Sport">
+            <div class="categories-img-text">
+              <h5 class="text-white">Sport</h5>
+            </div>
+          </div>
+          <div class="categories-img col-lg-3 col-md-3 col-sm-12">
+            <img src="./img/Virtual Worlds.png" alt="Virtual Worlds">
+            <div class="categories-img-text">
+              <h5 class="text-white">Virtual Worlds</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+
+    <!-- Discover part -->
+    <section class="discover common-padding bg-dark">
+      <div class="container">
+        <div class="discover-text">
+          <h3 class="text-white">Discover More NFTs</h3>
+        </div>
+        <div class="explore-seeall d-flex justify-content-between align-items-center">
+          <div class="explore">
+            <p class="text-white">Explore new trending NFTs</p>
+          </div>
+          <div class="seeall">
+            <p><span><i class="fa-regular fa-eye eye"></i></span><a href="#" id="view" class="text-white">View
+                Rankigns</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="discover-img">
+              <img src="./img/Distant Galaxy.png" alt="Distant Galaxy">
+            </div>
+            <div class="discover-text1">
+              <h5 class="text-white">Distant Galaxy</h5>
+              <span class="text-white"><img src="./img/MoonDancer.png" alt="MoonDancer" id="avater1"> MoonDancer</span>
+
+              <div class="up-text1 d-flex justify-content-between align-items-center">
+                <div class="text1">
+                  <p>Price</p>
+                </div>
+                <div class="text1">
+                  <p>Highest Bid</p>
+                </div>
+              </div>
+
+              <div class="low-text1 d-flex justify-content-between align-items-center">
+                <div class="text2">
+                  <p class="text-white">1.63 ETH</p>
+                </div>
+                <div class="text2">
+                  <p class="text-white">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12" id="mid-Discover">
+            <div class="discover-img">
+              <img src="./img/Life On Edena.png" alt="Life On Edena">
+            </div>
+            <div class="discover-text1">
+              <h5 class="text-white">Life On Edena</h5>
+              <span class="text-white"><img src="./img/NebulaKid.png" alt="NebulaKid" id="avater1"> NebulaKid</span>
+
+              <div class="up-text1 d-flex justify-content-between align-items-center">
+                <div class="text1">
+                  <p>Price</p>
+                </div>
+                <div class="text1">
+                  <p>Highest Bid</p>
+                </div>
+              </div>
+
+              <div class="low-text1 d-flex justify-content-between align-items-center">
+                <div class="text2">
+                  <p class="text-white">1.63 ETH</p>
+                </div>
+                <div class="text2">
+                  <p class="text-white">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="discover-img">
+              <img src="./img/AstroFiction.png" alt="AstroFiction">
+            </div>
+            <div class="discover-text1">
+              <h5 class="text-white">AstroFiction</h5>
+              <span class="text-white"><img src="./img/Spaceone.png" alt="Spaceone" id="avater1"> Spaceone</span>
+
+              <div class="up-text1 d-flex justify-content-between align-items-center">
+                <div class="text1">
+                  <p>Price</p>
+                </div>
+                <div class="text1">
+                  <p>Highest Bid</p>
+                </div>
+              </div>
+
+              <div class="low-text1 d-flex justify-content-between align-items-center">
+                <div class="text2">
+                  <p class="text-white">1.63 ETH</p>
+                </div>
+                <div class="text2">
+                  <p class="text-white">0.33 wETH</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- Mashrooms part -->
+    <section class="tree">
+      <div class="container-fluied p-0">
+        <img src="./img/Mashrooms.png" alt="Mashrooms" width="100%">
+      </div>
+    </section>
+    <!-- end -->
+
+
+    <!-- works part -->
+    <section class="discover common-padding bg-dark">
+      <div class="container">
+        <div class="work-heading">
+          <h3 class="text-white">How it works</h3>
+          <p class="p16 text-white">Find out how to get started</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 work-detail" id="first-work">
+            <div class="card work-card d-flex justify-content-center align-items-center  bg-dark">
+              <img src="./img/Setup Your wallet.png" alt="img">
+
+              <div class="card-body work-body text-center">
+                <h5 class="text-white">Setup Your wallet</h5>
+                <div class="Set-up">
+                  <p class="p17 text-white">Set up your wallet of choice. Connect it to the Animarket by
+                    clicking the
+                    wallet icon in the top right corner.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md4 col-sm-6 col-xs-12 work-detail" id="mid-work">
+
+            <div class="card work-card d-flex justify-content-center align-items-center bg-dark">
+              <img src="./img/Create Collection.png" alt="img">
+
+              <div class="card-body work-body text-center">
+                <h5 class="text-white">Create Collection</h5>
+                <div class="upload">
+                  <p class="p17 text-white">Upload your work and setup your collection. Add a description,
+                    social links and floor price.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md4 col-sm-12 col-xs-12 work-detail" id="low-work">
+
+            <div class="card work-card d-flex justify-content-center align-items-center bg-dark">
+              <img src="./img/Start Earning.png" alt="img">
+
+              <div class="card-body work-body text-center">
+                <h5 class="text-white">Start Earning</h5>
+
+                <p class="p17 text-white">Choose between auctions and fixed-price listings. Start
+                  earning by selling your NFTs or trading others.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- digest part -->
+    <section class="digest common-padding bg-dark">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center" id="digest-row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 digest-detail">
+            <div class="digest-img">
+              <img src="./img/digest.png" alt="img">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 digest-detail">
+            <div class="digest-rightpart">
+              <h3 class="text-white">Join our weekly digest</h3>
+              <p class="p18 text-white">Get exclusive promotions & updates straight to your inbox.</p>
+              <div class="subscribe-part d-flex justify-content-between align-items-center">
+                <input type="email" name="email" placeholder="Enter your email here" id="email">
+                <button class="btn5"><a href="#">
+                    <span class="s1"><i class="fa-regular fa-envelope"></i></span> Subscribe
+                  </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+  </main>
+
+  <!-- footer part -->
+  <footer>
+    <section class="discover common-padding bg-dark">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 footer-detail">
+            <div class="footer-part1">
+              <div class="logo">
+                <img src="./img/nav/logo.png" alt="img">
+              </div>
+
+              <p class="p19">NFT marketplace UI created with Anima for Figma.</p>
+
+              <p class="p19">Join our community</p>
+
+              <div class="footer-icon d-flex">
+                <div class="f-icon">
+                  <i class="fa-brands fa-discord"></i>
+                </div>
+                <div class="f-icon">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="f-icon">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="f-icon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 footer-detail" id="footerlist-part">
+            <div class="footer-list">
+              <h5 class="text-white">Explore</h5>
+
+              <ul class="p-0">
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Rankings</a></li>
+                <li><a href="#">Connect a wallet</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-detail">
+            <div class="footer-part3">
+              <h5 class="text-white">Join our weekly digest</h5>
+              <p class="p19">Get exclusive promotions & updates straight to your inbox.</p>
+
+              <div class="subscribe-part d-flex justify-content-between align-items-center">
+                <input type="email" name="email" placeholder="Enter your email here" id="email" class="your-mail">
+                <button class="btn6"><a href="#">
+                    Subscribe
+                  </a></button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="last-footer">
+          <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!-- end -->
+
+
+
+
+
+  <!-- bootstrap cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
